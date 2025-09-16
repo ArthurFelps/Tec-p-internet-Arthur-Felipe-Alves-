@@ -61,3 +61,22 @@ a{
     text-decoration: none;
     color: black;
 }
+
+.historia{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.idolos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os cards */
+}
+
+.idolos ol{
+    align-items: center;
+    text-align: center;
+    object-fit: cover; /* Garante que a imagem preencha o card */
+}
